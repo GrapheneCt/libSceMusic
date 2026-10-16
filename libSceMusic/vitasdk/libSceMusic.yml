@@ -1,0 +1,50 @@
+version: 0x2
+firmware: 3.60
+modules:
+  libSceMusic:
+    nid: 0
+    libraries:
+      libSceMusic:
+        nid: 0x4749C288
+        kernel: false
+        functions:
+          sceMusicInternalAppGetInternalError: 0x81224862
+          sceMusicInternalAppGetInternalError2: 0xECCB6011
+          sceMusicInternalAppGetStatus: 0x7D4EEEAD
+          sceMusicInternalAppGetUri: 0xF054B9A9
+          sceMusicInternalAppInitialize: 0x9401A8D4
+          sceMusicInternalAppSetALCMode: 0xC892F76F
+          sceMusicInternalAppSetEQMode: 0x01330E07
+          sceMusicInternalAppSetPlaybackCommand: 0x7294FD3E
+          sceMusicInternalAppSetRepeatMode: 0x16890B5B
+          sceMusicInternalAppSetSegment: 0x09504E7C
+          sceMusicInternalAppSetShuffleMode: 0xDB6AD3FA
+          sceMusicInternalAppSetUri: 0xE3FF4C22
+          sceMusicInternalAppSetUriExt: 0x24CF3793
+          sceMusicInternalAppSetVolume: 0xFB08D4FE
+          sceMusicInternalAppTerminate: 0x359B3F6D
+          sceMusicPlayerServiceForbid: 0x156BEBA6
+          sceMusicPlayerServiceGetDbQuery: 0x9C282040
+          sceMusicPlayerServiceGetForbidStatus: 0x85E3F6BD
+          sceMusicPlayerServiceGetInternalError: 0x7BE8AB5C
+          sceMusicPlayerServiceGetPlayStatus: 0x071F0541
+          sceMusicPlayerServiceGetPlayStatusExtension: 0x6C43FCBD
+          sceMusicPlayerServiceGetTrackInfo: 0x6F77C97F
+          sceMusicPlayerServiceGetUri: 0xD820681F
+          sceMusicPlayerServiceInitialize: 0x5E458022
+          sceMusicPlayerServiceLock: 0x7067CEB2
+          sceMusicPlayerServicePermit: 0x2A49B766
+          sceMusicPlayerServiceSetALCMode: 0x687677F3
+          sceMusicPlayerServiceSetDbQuery: 0x5EAD1497
+          sceMusicPlayerServiceSetDbQueryExt: 0x33E149C3
+          sceMusicPlayerServiceSetEQMode: 0x91291752
+          sceMusicPlayerServiceSetPlaybackCommand: 0x60413A15
+          sceMusicPlayerServiceSetRepeatMode: 0x41EC636B
+          sceMusicPlayerServiceSetSeekTime: 0x6D3FF13B
+          sceMusicPlayerServiceSetSegment: 0x950AC624
+          sceMusicPlayerServiceSetShuffleMode: 0xB1DE662F
+          sceMusicPlayerServiceSetUri: 0xFE262D90
+          sceMusicPlayerServiceSetUriExt: 0xFCC8B620
+          sceMusicPlayerServiceSetVolume: 0xB0602EE5
+          sceMusicPlayerServiceTerminate: 0xB7DC84FD
+          sceMusicPlayerServiceUnlock: 0x01206C22

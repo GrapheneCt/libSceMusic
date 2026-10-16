@@ -1,0 +1,1 @@
+"%SCE_PSP2_SDK_DIR%\host_tools\build\bin\vdsuite-libgen.exe" --output-kind VitasdkStub libSceMusic.yml stubs
